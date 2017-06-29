@@ -32,10 +32,7 @@ class PaypalPaymentController extends Controller
     {
         // GET payment/PAY-6UK7715816380631LERRV5Y
        $payment = Paypalpayment::getById($payment_id,$this->_apiContext);
-
-       
-
-       dd($payment);
+    // comment
     }
 
     /*
